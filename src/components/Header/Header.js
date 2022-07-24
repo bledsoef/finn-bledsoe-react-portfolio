@@ -3,15 +3,15 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, PortfolionIcon } from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "center", alignItems: "center", color: 'white'}}>
-          <DiCssdeck size='3rem' /> <span>Portfolio</span>
-        </a>
+        <PortfolionIcon>
+          <DiCssdeck size='3rem' /> <Span>Portfolio</Span>
+        </PortfolionIcon>
       </Link>
     </Div1>
     <Div2>

@@ -17,6 +17,17 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.span`
+  font-size: 2rem;
+`;
+
+export const PortfolionIcon = styled.span`
+  display: center;
+  alignItems: center;
+  color: white;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
