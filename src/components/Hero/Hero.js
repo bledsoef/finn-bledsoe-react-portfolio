@@ -12,7 +12,7 @@ const Hero = (props) => (
         Software Developer
       </SectionTitle>
       <SectionText>
-        Insert text here
+        Welcome! My name is Finn Bledsoe, a Berea College student working as a software developer.
       </SectionText>
       <Button onClick={() => window.location = 'https://www.linkedin.com/in/finn-bledsoe-149855230/'}>Learn More</Button>
     </LeftSection>

@@ -6,11 +6,11 @@ export default {
   },
   // Colors for layout
   colors: {
-    primary1: "hsl(227, 81%, 100%)",
-    background1: "hsl(227, 81%, 64%)",
-    accent1: "hsl(34.9,98.6%,72.9%)",
-    button: "hsl(227, 81%, 64%)",
-    background2: "hsl(232.7,27.3%,23.7%)",
+    primary1: "#9BA3EB",
+    background1: "#242F9B",
+    accent1: "#646FD4",
+    button: "#646FD4",
+    background2: "#646FD4",
   },
   // Breakpoints for responsive design
   breakpoints: {

@@ -23,8 +23,8 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: hsl(227, 81%, 59%);
-  border-radius: 12px;
+background: #646FD4;
+border-radius: 12px;
   height: 144px;
   padding: 24px;
   @media ${props => props.theme.breakpoints.lg} {

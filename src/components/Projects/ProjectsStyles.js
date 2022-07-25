@@ -25,7 +25,7 @@ row-gap: 3rem;
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  background: hsl(227, 81%, 61%);
+  background: #646FD4;
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -36,6 +36,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+  color: #DBDFFD;
 
 `;
 
@@ -43,7 +44,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: hsl(227, 81%, 91%);
+  color: #DBDFFD;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -97,7 +98,7 @@ background: hsl(227, 81%, 89%);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #9BA3EB;
 
 }
 `;
@@ -108,6 +109,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: hsl(227, 81%, 96%);
+color: #DBDFFD;
 font-size: 1.5rem;
 `

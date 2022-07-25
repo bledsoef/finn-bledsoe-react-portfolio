@@ -32,7 +32,7 @@ export const SectionTitle = styled.h2`
   max-width: 100%;
   background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: hsl(35, 100%, 90%);
+  -webkit-text-fill-color: #DBDFFD;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
 
@@ -60,7 +60,7 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: #DBDFFD;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -82,7 +82,7 @@ export const SectionDivider = styled.div`
   height: 6px;
   border-radius: 10px;
   background-color: #fff;
-  background: hsl(35, 100%, 100%);
+  background: #646FD4;
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -175,7 +175,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: hsl(227, 81%, 0%);
-  background: hsl(227, 81%, 100%);
+  background: #DBDFFD;
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -207,7 +207,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: hsl(227, 81%, 95%);
+  background: #DBDFFD;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};

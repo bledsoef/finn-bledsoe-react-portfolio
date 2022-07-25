@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: hsl(227, 81%, 64%);
+  background: #242F9B;
   padding: 0rem;
   list-style:none;
   display: flex;

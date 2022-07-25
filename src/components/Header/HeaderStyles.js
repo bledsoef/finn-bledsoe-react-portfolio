@@ -127,7 +127,7 @@ color: white;
 border-radius: 50px;
   padding: 8px;
 &:hover {
-    background-color: hsl(227, 81%, 59%);
+    background-color: #646FD4;
     transform: scale(1.2);
     cursor: pointer;
     
