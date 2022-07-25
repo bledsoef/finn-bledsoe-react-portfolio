@@ -5,12 +5,13 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "main": "^1000.0.1",
     "next": "10.2.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
