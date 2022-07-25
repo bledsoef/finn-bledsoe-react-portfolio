@@ -16,9 +16,9 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Ebay Price Comparison Application',
+    title: 'Ebay Price Comparison Application [In Progress]',
     description: "An application that takes a product and price searches ebay for cheaper prices, and displays those to the user.",
-      image: '/images/3.jpg',
+      image: '/images/Scraper.png',
       tags: ['Python', 'PyQt6', 'BeatifulSoup', 'Requests'],
     visit: 'https://github.com/bledsoef/price-comparison-application',
     id: 2,
@@ -26,7 +26,7 @@ export const projects = [
   {
     title: 'Berea College Celts Application',
     description: "A full-stack application for the Berea College Celts department which is used by staff and faculty to managecourses and events for 1700 Berea College students, faculty, and staff using JavaScript, Python, HTML, and CSS.",
-    image: '/images/4.jpg',
+    image: '/images/Celts.png',
     tags: ['Python', 'JavaScript/JQuery', 'HTML', 'CSS', 'Flask'],
     visit: 'https://github.com/BCStudentSoftwareDevTeam/celts',
     id: 3,
