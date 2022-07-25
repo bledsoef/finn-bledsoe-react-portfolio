@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionDivider/>
       <SectionTitle main>About Me</SectionTitle>
-      <SectionText>Insert Text Here</SectionText>
+      <SectionText>I am a current sophomore at Berea College, majoring in computer science, 
+        currently employed as a software developer with Berea's Software Development Team.
+        I have a strong interest in web development and AI.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (

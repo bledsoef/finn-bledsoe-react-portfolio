@@ -67,6 +67,8 @@ export const ListTitle = styled.h4`
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
+  margin-top: 8px;
+
 
 @media ${props => props.theme.breakpoints.md}{
   font-size: 24px;
@@ -117,17 +119,18 @@ export const ListIcon = styled.img`
   display: block;
   width: 48px;
   height: 48px;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
   
   @media ${props => props.theme.breakpoints.md}{
     width: 40px;
     height: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
   }
 
   @media ${props => props.theme.breakpoints.sm}{
     width: 32px;
     height: 32px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
   }
 `

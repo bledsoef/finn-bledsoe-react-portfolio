@@ -34,17 +34,15 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2021, text: 'May - Graduated high school and got my first position as a software developor at Numismatically Yours', },
+  { year: 2021, text: 'August - Started my CS degree at Berea College', },
+  { year: 2022, text: 'June - Joined the Berea College Software Development Team', }
 ];
 
 
 export const Accomplishments = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 2000, text: 'Open Source Line Contributions'},
+  { number: 5, text: 'Functional Web Scrapers', },
+  { number: 3.7, text: 'GPA at Berea College', },
+  { number: 289, text: 'Bowling High Score', }
 ];
